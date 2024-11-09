@@ -122,3 +122,20 @@ es_carnivoro(X) :- dieta(X, carnivoro).
 % Regla para determinar si un animal es omnívoro
 es_omnivoro(X) :- dieta(X, omnivoro).
 ```
+### Consultas y resultados
+
+Consulta para saber si un animal es herbívoro
+- es_herbivoro(elefante).
+ Resultado:
+ true.
+
+Consulta para saber qué animal es carnívoro
+- es_carnivoro(X).
+ Resultado:
+ X = leon.
+
+ Consulta para saber qué come un oso
+- come(oso, Y).
+ Resultado:
+ Y = plantas ;
+ Y = carne.
