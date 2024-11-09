@@ -93,3 +93,32 @@ Animales que pueden volar
 Zoología <br>
 ### Problema: 
 Crear una base de hechos y reglas para identificar qué animales son herbívoros, carnívoros o omnívoros. Además, queremos saber qué tipo de alimento consume cada animal.
+
+```prolog
+% Hechos
+animal(elefante).
+animal(leon).
+animal(oso).
+animal(conejo).
+
+dieta(elefante, herbivoro).
+dieta(leon, carnivoro).
+dieta(oso, omnivoro).
+dieta(conejo, herbivoro).
+
+come(elefante, plantas).
+come(leon, carne).
+come(oso, plantas).
+come(oso, carne).
+come(conejo, plantas).
+
+% Reglas
+% Regla para determinar si un animal es herbívoro
+es_herbivoro(X) :- dieta(X, herbivoro).
+
+% Regla para determinar si un animal es carnívoro
+es_carnivoro(X) :- dieta(X, carnivoro).
+
+% Regla para determinar si un animal es omnívoro
+es_omnivoro(X) :- dieta(X, omnivoro).
+```
