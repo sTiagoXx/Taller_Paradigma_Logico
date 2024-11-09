@@ -69,3 +69,19 @@ puede_nadar(X) :- pez(X); mamifero(X), X \= tigre; reptil(X), X = cocodrilo.  % 
 % ¿Qué animales pueden nadar?
 % ?- puede_nadar(X).
 ```
+
+
+## Consultas y resultados
+
+Animales que pueden volar
+- puede_volar(X).
+ Resultados:
+ X = aguila ;
+ X = loro.
+
+ Animales que pueden nadar
+- puede_nadar(X).
+ Resultados:
+ X = tiburon ;
+ X = delfin ;
+ X = cocodrilo.
