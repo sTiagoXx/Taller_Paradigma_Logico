@@ -41,22 +41,22 @@ tio(X, Y) :- hermano(X, Z), padre(Z, Y).
 ```prolog
 
 % Hechos
-animal(tigre).       % Tigre
-animal(aguila).      % Águila
-animal(tiburon).     % Tiburón
-animal(cocodrilo).   % Cocodrilo
-animal(loro).        % Loro
-animal(delfin).      % Delfín
+animal(tigre).       
+animal(aguila).      
+animal(tiburon).     
+animal(cocodrilo).  
+animal(loro).      
+animal(delfin).    
 
-mamifero(tigre).     % Tigre es un mamífero
-mamifero(delfin).    % Delfín es un mamífero
+mamifero(tigre).     
+mamifero(delfin).    
 
-ave(aguila).         % Águila es un ave
-ave(loro).           % Loro es un ave
+ave(aguila).        
+ave(loro).         
 
-pez(tiburon).        % Tiburón es un pez
+pez(tiburon).       
 
-reptil(cocodrilo).   % Cocodrilo es un reptil
+reptil(cocodrilo). 
 
 % Reglas
 puede_volar(X) :- ave(X).                              % Los animales que son aves pueden volar
