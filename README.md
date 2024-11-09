@@ -85,3 +85,9 @@ Animales que pueden volar
  X = tiburon ;
  X = delfin ;
  X = cocodrilo.
+
+## Ejercicio 4
+
+Definición del Problema
+Área de interés: Zoología <br>
+Problema: Crear una base de hechos y reglas para identificar qué animales son herbívoros, carnívoros o omnívoros. Además, queremos saber qué tipo de alimento consume cada animal.
