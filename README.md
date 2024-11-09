@@ -1,7 +1,7 @@
 # Taller Paradigma Logico
-
+## Ejercicio 1: Base de Hechos y Reglas
 ```prolog
-% Ejercicio 1: Base de Hechos y Reglas
+
 
 % Hechos
 padre(john, mary).
@@ -16,9 +16,9 @@ padre(mary, james). % Nuevo hecho
 abuelo(X, Y) :- padre(X, Z), padre(Z, Y).
 hermano(X, Y) :- padre(Z, X), padre(Z, Y), X \= Y.
 tio(X, Y) :- hermano(X, Z), padre(Z, Y).
+```
 
-
-```markdown
+## Ejercicio 2: Consultas en Prolog
 ```prolog
 % Ejercicio 2: Consultas en Prolog
 
@@ -37,3 +37,4 @@ tio(X, Y) :- hermano(X, Z), padre(Z, Y).
 % Resultado:
 % Y = susan;
 % Y = james.
+```
