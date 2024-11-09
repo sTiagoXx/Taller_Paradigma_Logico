@@ -37,7 +37,7 @@ tio(X, Y) :- hermano(X, Z), padre(Z, Y).
  Resultado:
  Y = susan;
  Y = james.
-## Ejercicio 2:
+## Ejercicio 3:
 ```prolog
 
 % Hechos
