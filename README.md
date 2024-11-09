@@ -139,3 +139,7 @@ Consulta para saber qué animal es carnívoro
  Resultado:
  Y = plantas ;
  Y = carne.
+
+### Propósito y Campo de Acción del Problema
+
+El propósito de este problema es clasificar animales según su dieta, lo cual podría ser útil en zoología y estudios de alimentación animal. Esta base de conocimiento es útil para identificar patrones alimenticios y hacer recomendaciones sobre alimentación en zoológicos o en la vida silvestre. 
